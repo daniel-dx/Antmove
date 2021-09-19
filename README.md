@@ -1,3 +1,13 @@
+# 开发
+
+```sh
+$ yarn install
+$ npm run bootstrap
+$ npm run link
+$ npm link
+$ antmove --help
+```
+
 # 指南
 
 Antmove - 小程序转换器，基于支付宝/微信小程序转换为多端小程序，让小程序跨平台开发变得简单。

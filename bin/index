@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 const path = require('path')
-const fs = require('fs-extra')
 const program = require('commander')
 const chalk = require('chalk')
 const packageJson = require('../package.json')
@@ -105,7 +104,7 @@ options.useRuntimeLog = program.useRuntimeLog || options.useRuntimeLog
 options.watch = program.watch || options.watch
 options.ignoreNpm = program.ignoreNpm || options.ignoreNpm
 options.libraryName = program.libraryName || options.libraryName
-options.useCompileLog  = program.useCompileLog  || options.useCompileLog 
+options.useCompileLog  = program.useCompileLog  || options.useCompileLog
 
 if (options.error === 'true' || options.error === true) {
   options.error = true

@@ -5,3 +5,4 @@ dist/
 bus/
 .vscode
 .eslintcache
+.history
